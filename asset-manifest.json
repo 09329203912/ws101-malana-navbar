@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ws101-malana-navbar/static/css/main.188055d7.css",
+    "main.js": "/ws101-malana-navbar/static/js/main.0087ac76.js",
+    "static/js/453.dd42d34f.chunk.js": "/ws101-malana-navbar/static/js/453.dd42d34f.chunk.js",
+    "index.html": "/ws101-malana-navbar/index.html",
+    "main.188055d7.css.map": "/ws101-malana-navbar/static/css/main.188055d7.css.map",
+    "main.0087ac76.js.map": "/ws101-malana-navbar/static/js/main.0087ac76.js.map",
+    "453.dd42d34f.chunk.js.map": "/ws101-malana-navbar/static/js/453.dd42d34f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.188055d7.css",
+    "static/js/main.0087ac76.js"
+  ]
+}
