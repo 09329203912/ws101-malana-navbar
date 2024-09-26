@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  width: 100%;
+  background: rgb(86,99,99);
+  background: linear-gradient(61deg, rgba(86,99,99,1) 0%, rgba(183,186,219,1) 60%, rgba(183,186,219,1) 100%); 
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.navbar ul li img {
+  width: 30px;
+
+}
+
+.navbar ul li.active {
+  > a {
+      color: #4e2437;
+  }
+
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  margin: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Fredoka", sans-serif;
+}
+
+.navbar ul li:hover {
+  transform: scale(1.1);
+  transition: 200ms ease-in-out;
+  text-shadow: 3px 2px 5px black;
+}
+
+.navbar img {
+  object-fit: fill;
+  width: 150px;
+  height: auto;
+  width: 170px;
+}
+
+.hero {
+  font-size: 35px;
+  font-family: "Fredoka", sans-serif;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: flex;
+  align-items: center;
+}
+
+.hom {
+  background: rgb(58,67,94);
+  background: linear-gradient(0deg, rgba(58,67,94,1) 0%, rgba(148,153,159,1) 100%);
+  align-items: center;
+  display: flex;
+  justify-content: center ;
+  width: 30%;
+  height: 50vh;
+  margin: 8%;
+  border-radius: 20%;
   color: white;
+  box-shadow: 8px 8px 5px rgb(140, 136, 136);
 }
 
-.App-link {
-  color: #61dafb;
+.about {
+  font-size: 35px;
+  font-family: "Fredoka", sans-serif;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.abt {
+  background: rgb(194,184,178);
+  background: linear-gradient(0deg, rgba(194,184,178,1) 66%, rgba(138,113,106,1) 98%);
+  align-items: center;
+  display: flex;
+  justify-content: center ;
+  width: 30%;
+  height: 50vh;
+  margin: 8%;
+  border-radius: 20%;
+  color: white;
+  box-shadow: 8px 8px 5px rgb(140, 136, 136);
 }
+
+.contact {
+  font-size: 35px;
+  font-family: "Fredoka", sans-serif;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.cont {
+  background: rgb(29,38,59);
+  background: linear-gradient(0deg, rgba(29,38,59,1) 27%, rgba(92,103,132,1) 100%);
+  align-items: center;
+  display: flex;
+  justify-content: center ;
+  width: 30%;
+  height: 50vh;
+  margin: 8%;
+  border-radius: 20%;
+  color: white;
+  box-shadow: 8px 8px 5px rgb(140, 136, 136);
+}
+
